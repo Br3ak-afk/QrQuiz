@@ -30,9 +30,9 @@ function App() {
 
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/pregunta-1" element={<Pregunta preguntaId={1} sumarPuntaje={sumarPuntaje} />} />
-        <Route path="/pregunta-2" element={<Pregunta preguntaId={2} sumarPuntaje={sumarPuntaje} />} />
-        <Route path="/pregunta-3" element={<Pregunta preguntaId={3} sumarPuntaje={sumarPuntaje} />} />
+        <HashRouter path="/pregunta-1" element={<Pregunta preguntaId={1} sumarPuntaje={sumarPuntaje} />} />
+        <HashRouter path="/pregunta-2" element={<Pregunta preguntaId={2} sumarPuntaje={sumarPuntaje} />} />
+        <HashRouter path="/pregunta-3" element={<Pregunta preguntaId={3} sumarPuntaje={sumarPuntaje} />} />
       </Routes>
     </Router>
   );
